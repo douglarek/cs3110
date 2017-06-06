@@ -1,0 +1,13 @@
+opam-version: "1.2"
+maintainer: "douglarek+github@gmail.com"
+authors: ["Lingchao Xin <douglarek+github@gmail.com>"]
+homepage: "https://github.com/dougalrek/cs3110"
+license: "MIT"
+build: [
+]
+depends: [
+]
+available: [ ocaml-version >= "4.04.1" ]
+descr: "
+Data Structures and Functional Programming.
+"

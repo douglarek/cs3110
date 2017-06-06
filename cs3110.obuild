@@ -1,8 +1,0 @@
-name: cs3110
-version: 0.1.0
-synopsis: Data Structures and Functional Programming.
-obuild-ver: 1
-
-executable cs3110
-  main: main.ml
-  src-dir: src
