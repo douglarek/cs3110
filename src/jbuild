@@ -1,4 +1,5 @@
 (jbuild_version 1)
 
 (library
- ((name cs3110)))
+ ((name cs3110)
+  (public_name cs3110)))
