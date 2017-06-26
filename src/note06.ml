@@ -125,7 +125,7 @@ let (--) i j =
   in from i j [];;
 
 List.fold_left (-) 0 (List.rev (0--1_000_000));;
-List.fold_right (-) (List.rev (0--1_000_000)) 0;; (* Stack overflow *)
+(* List.fold_right (-) (List.rev (0--1_000_000)) 0;; *) (* Stack overflow *)
 
 (* Folding is powerful*)
 let length l = List.fold_left (fun a _ -> a + 1) 0 l
