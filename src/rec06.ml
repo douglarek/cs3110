@@ -81,6 +81,11 @@ let add1 = tree_map (fun x -> x + 1)
 (* let a = Node(10, Node (2, Leaf, Leaf), Leaf);; *)
 (* add1 a *)
 
-(* association list keys *)(* TODO:  *)
+(* association list keys *)
+let keys lst = let (a, _) = List.split lst in
+  a
+  |> List.sort_uniq compare
+(* a better way *)
+let keys lst = lst |> List.split |> fst |> List.sort_uniq compare
 
 (* Challenge exercises: Matrices *) (* TODO:  *)
